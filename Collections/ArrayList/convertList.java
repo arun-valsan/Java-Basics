@@ -19,6 +19,15 @@ public class convertList {
             list2.add(text);
         }
         System.out.println(list2);
+
+        // Add a group of strings to Array List
+        List<String> list3 = new ArrayList<>(
+                List.of("Coding",
+                        "is",
+                        "Fun"));
+
+        // to print the ArrayList
+        System.out.println("ArrayList is " + list3);
     }
 }
 
