@@ -1,0 +1,12 @@
+Set Interface
+==============
+
+- Defines an unordered collection.
+- Cannot store duplicate values in this.
+- Impelmentation is done using  HashedSet, LinkedHashSet and TreeSet.
+- All the classes of Set interface are internally backed up by Map
+ Syntax
+ ======
+  Set<Data-Type> hs = new HashSet<Data-Type>();
+  Set<Data-Type> lhs = new LinkedHashSet<Data-Type>();
+  Set<Data-Type> ts = new TreeSet<Data-Type>();
