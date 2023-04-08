@@ -1,0 +1,17 @@
+Set Interface
+==============
+
+- Defines an unordered collection.
+- Cannot store duplicate values in this.
+- Impelmentation is done using  HashedSet, LinkedHashSet and TreeSet.
+- All the classes of Set interface are internally backed up by Map
+ Syntax
+ ======
+  Set<Data-Type> hs = new HashSet<Data-Type>();
+  Set<Data-Type> lhs = new LinkedHashSet<Data-Type>();
+  Set<Data-Type> ts = new TreeSet<Data-Type>();
+  
+  
+Like every other descendant of the Collection library, we can iterate through a LinkedHashSet. Two types of iterators are available in a LinkedHashSet: Iterator and Spliterator.
+
+While the former is only able to traverse and perform any basic operation on a Collection, the latter splits the Collection into subsets and performs different operations on each subset in parallel, thereby making it thread-safe.
